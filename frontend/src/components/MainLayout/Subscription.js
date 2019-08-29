@@ -2,7 +2,7 @@ import React, { Fragment,Component } from "react";
 import { MDBCard, MDBCardBody, MDBCardHeader, MDBInput } from "mdbreact";
 import axios from 'axios';
 
-class TagList extends Component {
+class Subscription extends Component {
 
 constructor(props){
   super(props);
@@ -74,4 +74,4 @@ render() {
   }
 }
 
-export default TagList;
+export default Subscription;
